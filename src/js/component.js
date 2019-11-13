@@ -106,4 +106,7 @@ $(document).ready(function () {
     
     $('.results-img.repl img').attr('src', 'images/mobimg.png');
   }
+  
+//  $('.contacts iframe').attr('src', "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2541.8114628537114!2d30.532733115730558!3d50.42598427947197!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cf11bb891b2b%3A0x33145bba7363905c!2z0YPQuy4g0JXQstCz0LXQvdC40Y8g0JrQvtC90L7QstCw0LvRjNGG0LAsIDM20JEsINCa0LjQtdCyLCAwMjAwMA!5e0!3m2!1sru!2sua!4v1573666021611!5m2!1sru!2sua");
+
 });

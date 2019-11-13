@@ -1,0 +1,216 @@
+@font-face {
+    font-family: 'TT Commons';
+    src: url('TTCommons-ExtraLightItalic.eot');
+    src: url('TTCommons-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('TTCommons-ExtraLightItalic.woff2') format('woff2'),
+        url('TTCommons-ExtraLightItalic.woff') format('woff'),
+        url('TTCommons-ExtraLightItalic.ttf') format('truetype'),
+        url('TTCommons-ExtraLightItalic.svg#TTCommons-ExtraLightItalic') format('svg');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Commons';
+    src: url('TTCommons-ExtraBoldItalic.eot');
+    src: url('TTCommons-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('TTCommons-ExtraBoldItalic.woff2') format('woff2'),
+        url('TTCommons-ExtraBoldItalic.woff') format('woff'),
+        url('TTCommons-ExtraBoldItalic.ttf') format('truetype'),
+        url('TTCommons-ExtraBoldItalic.svg#TTCommons-ExtraBoldItalic') format('svg');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Commons';
+    src: url('TTCommons-ExtraLight.eot');
+    src: url('TTCommons-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('TTCommons-ExtraLight.woff2') format('woff2'),
+        url('TTCommons-ExtraLight.woff') format('woff'),
+        url('TTCommons-ExtraLight.ttf') format('truetype'),
+        url('TTCommons-ExtraLight.svg#TTCommons-ExtraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Commons';
+    src: url('TTCommons-Regular.eot');
+    src: url('TTCommons-Regular.eot?#iefix') format('embedded-opentype'),
+        url('TTCommons-Regular.woff2') format('woff2'),
+        url('TTCommons-Regular.woff') format('woff'),
+        url('TTCommons-Regular.ttf') format('truetype'),
+        url('TTCommons-Regular.svg#TTCommons-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Commons';
+    src: url('TTCommons-MediumItalic.eot');
+    src: url('TTCommons-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('TTCommons-MediumItalic.woff2') format('woff2'),
+        url('TTCommons-MediumItalic.woff') format('woff'),
+        url('TTCommons-MediumItalic.ttf') format('truetype'),
+        url('TTCommons-MediumItalic.svg#TTCommons-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Commons';
+    src: url('TTCommons-LightItalic.eot');
+    src: url('TTCommons-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('TTCommons-LightItalic.woff2') format('woff2'),
+        url('TTCommons-LightItalic.woff') format('woff'),
+        url('TTCommons-LightItalic.ttf') format('truetype'),
+        url('TTCommons-LightItalic.svg#TTCommons-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Commons';
+    src: url('TTCommons-ExtraBold.eot');
+    src: url('TTCommons-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('TTCommons-ExtraBold.woff2') format('woff2'),
+        url('TTCommons-ExtraBold.woff') format('woff'),
+        url('TTCommons-ExtraBold.ttf') format('truetype'),
+        url('TTCommons-ExtraBold.svg#TTCommons-ExtraBold') format('svg');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Commons';
+    src: url('TTCommons-BlackItalic.eot');
+    src: url('TTCommons-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('TTCommons-BlackItalic.woff2') format('woff2'),
+        url('TTCommons-BlackItalic.woff') format('woff'),
+        url('TTCommons-BlackItalic.ttf') format('truetype'),
+        url('TTCommons-BlackItalic.svg#TTCommons-BlackItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Commons';
+    src: url('TTCommons-DemiBold.eot');
+    src: url('TTCommons-DemiBold.eot?#iefix') format('embedded-opentype'),
+        url('TTCommons-DemiBold.woff2') format('woff2'),
+        url('TTCommons-DemiBold.woff') format('woff'),
+        url('TTCommons-DemiBold.ttf') format('truetype'),
+        url('TTCommons-DemiBold.svg#TTCommons-DemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Commons';
+    src: url('TTCommons-ThinItalic.eot');
+    src: url('TTCommons-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('TTCommons-ThinItalic.woff2') format('woff2'),
+        url('TTCommons-ThinItalic.woff') format('woff'),
+        url('TTCommons-ThinItalic.ttf') format('truetype'),
+        url('TTCommons-ThinItalic.svg#TTCommons-ThinItalic') format('svg');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Commons';
+    src: url('TTCommons-Medium.eot');
+    src: url('TTCommons-Medium.eot?#iefix') format('embedded-opentype'),
+        url('TTCommons-Medium.woff2') format('woff2'),
+        url('TTCommons-Medium.woff') format('woff'),
+        url('TTCommons-Medium.ttf') format('truetype'),
+        url('TTCommons-Medium.svg#TTCommons-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Commons';
+    src: url('TTCommons-Italic.eot');
+    src: url('TTCommons-Italic.eot?#iefix') format('embedded-opentype'),
+        url('TTCommons-Italic.woff2') format('woff2'),
+        url('TTCommons-Italic.woff') format('woff'),
+        url('TTCommons-Italic.ttf') format('truetype'),
+        url('TTCommons-Italic.svg#TTCommons-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Commons';
+    src: url('TTCommons-Thin.eot');
+    src: url('TTCommons-Thin.eot?#iefix') format('embedded-opentype'),
+        url('TTCommons-Thin.woff2') format('woff2'),
+        url('TTCommons-Thin.woff') format('woff'),
+        url('TTCommons-Thin.ttf') format('truetype'),
+        url('TTCommons-Thin.svg#TTCommons-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Commons';
+    src: url('TTCommons-Bold.eot');
+    src: url('TTCommons-Bold.eot?#iefix') format('embedded-opentype'),
+        url('TTCommons-Bold.woff2') format('woff2'),
+        url('TTCommons-Bold.woff') format('woff'),
+        url('TTCommons-Bold.ttf') format('truetype'),
+        url('TTCommons-Bold.svg#TTCommons-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Commons';
+    src: url('TTCommons-DemiBoldItalic.eot');
+    src: url('TTCommons-DemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('TTCommons-DemiBoldItalic.woff2') format('woff2'),
+        url('TTCommons-DemiBoldItalic.woff') format('woff'),
+        url('TTCommons-DemiBoldItalic.ttf') format('truetype'),
+        url('TTCommons-DemiBoldItalic.svg#TTCommons-DemiBoldItalic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Commons';
+    src: url('TTCommons-Black.eot');
+    src: url('TTCommons-Black.eot?#iefix') format('embedded-opentype'),
+        url('TTCommons-Black.woff2') format('woff2'),
+        url('TTCommons-Black.woff') format('woff'),
+        url('TTCommons-Black.ttf') format('truetype'),
+        url('TTCommons-Black.svg#TTCommons-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Commons';
+    src: url('TTCommons-BoldItalic.eot');
+    src: url('TTCommons-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('TTCommons-BoldItalic.woff2') format('woff2'),
+        url('TTCommons-BoldItalic.woff') format('woff'),
+        url('TTCommons-BoldItalic.ttf') format('truetype'),
+        url('TTCommons-BoldItalic.svg#TTCommons-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Commons';
+    src: url('TTCommons-Light.eot');
+    src: url('TTCommons-Light.eot?#iefix') format('embedded-opentype'),
+        url('TTCommons-Light.woff2') format('woff2'),
+        url('TTCommons-Light.woff') format('woff'),
+        url('TTCommons-Light.ttf') format('truetype'),
+        url('TTCommons-Light.svg#TTCommons-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+

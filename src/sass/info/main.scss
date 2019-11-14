@@ -1601,6 +1601,11 @@ font-size: 21px;
   display: none;
 }
 
+.owl-nav {
+  span {
+    display: none;
+  }
+}
 .menu {
   position: fixed;
   top: 0;

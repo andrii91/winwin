@@ -41,7 +41,7 @@
 
   .header {
     text-align: center;
-    padding-top: 195px;
+    padding-top: 130px;
     padding-bottom: 60px;
   }
 
@@ -67,6 +67,7 @@
   .h2-title {
     font-size: 30px;
     margin-bottom: 40px;
+    line-height: 1.4;
 
     br {
       display: block;
@@ -86,16 +87,23 @@
   }
 
   .section_2-item p {
-    font-size: 18px;
+    font-size: 15px;
     padding: 50px 22px;
-    top: 112px;
-    left: 8%;
+    top: 86px;
+    left: 37%;
     margin: 0;
+    max-width: 68%;
   }
 
   .section_2-item:nth-child(2) p {
     left: inherit;
-    right: 9%;
+    right: 36%;
+  }
+
+  .section_2-item {
+    .img {
+      max-width: 66%;
+    }
   }
 
   .section_2 {
@@ -103,6 +111,22 @@
       padding: 0 28px 50px;
       margin-top: 230px;
     }
+  }
+
+  .section_2-item p:before {
+    right: 30px;
+  }
+
+  .section_2-item p:after {
+    right: 68px;
+  }
+
+  .section_2-item:nth-child(2) p:before {
+    left: 20px;
+  }
+
+  .section_2-item:nth-child(2) p:after {
+    left: 68px;
   }
 
   .form {
@@ -165,6 +189,7 @@
 
   .h2-subtitle {
     margin-bottom: 40px;
+        max-width: 297px;
   }
 
   .strategies {
@@ -182,7 +207,13 @@
   .strategies-item .content ul {
     //    min-height: inherit;
   }
-
+  .strategies-item {
+    margin: 0 auto;
+  }
+  .benefits-carousel {
+    margin-left: auto;
+    margin-right: auto;
+  }
   .about {
     padding: 60px 0;
   }
@@ -226,9 +257,9 @@
     .h2-title {
       margin-bottom: 40px;
 
-      span {
+      /*span {
         display: block;
-      }
+      }*/
     }
   }
 
@@ -240,12 +271,16 @@
     padding: 60px 0 0;
   }
 
-  .benefits-item .img {
+  .benefits-item {
+    margin-bottom: 20px;
+    .img {
     min-height: inherit;
+  }
   }
 
   .order-btn span {
     padding: 25px 18px 18px;
+    font-size: 12px;
   }
 
   .benefits-carousel .strategies-item {
@@ -254,8 +289,7 @@
   }
 
   .benefits-carousel {
-    //    margin-top: 50px;
-    //    margin-bottom: 0;
+        margin-top: 50px;
   }
 
   .repairs {
@@ -266,7 +300,7 @@
     }
 
     .strategies-carousel {
-      margin-bottom: 0;
+//      margin-bottom: 0;
     }
 
     .h2-subtitle {
@@ -274,8 +308,16 @@
     }
   }
 
-  .form:before {
-    top: -305px;
+  .form {
+    max-width: 295px;
+
+    &:before {
+      top: -266px;
+      content: "";
+      border: 181px solid transparent;
+      border-bottom: 87px solid #f8c443;
+      width: 360px;
+    }
   }
 
   .repairs .h2-title {
@@ -429,21 +471,47 @@
       }
     }
   }
+
   .strategies-item .content ul {
     min-height: inherit;
   }
+
   .footer {
     padding-bottom: 60px;
   }
+
   .modal-large {
     padding-top: 60px;
     padding-bottom: 60px;
   }
+
   .container {
     max-width: 480px !important;
   }
+
   .strategy-item {
     margin-left: auto;
     margin-right: auto;
   }
+  
+  .strategies-carousel .owl-nav button {
+    position: absolute;
+    top: 155px;
+    transform: translateY(0%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: .3s;
+}
+  .strategies-carousel .owl-nav button:hover {
+    transform:  scale(.9);
+}
+  .repairs-mob {
+    display: block;
+  }
+.section_5 .form .title {
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: 24px;
+}
 }

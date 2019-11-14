@@ -11,7 +11,7 @@
   <meta property="og:url" content="" />
   <meta property="og:sitename" content="" />
   <meta property="og:title" content="Покупайте и продавайте недвижимость с доходом до 60%">
-  <meta property="og:image" content="" />
+  <meta property="og:image" content="images/winrealty_og.png" />
   <title>Покупайте и продавайте недвижимость с доходом до 60%</title>
   <link type="text/css" rel="stylesheet" href="css/app.css" />
   <link rel="shortcut icon" href="images/favicon.ico">
@@ -20,15 +20,14 @@
 <body>
 <div class="menu">
   <ul>
-    <li><a class="scroll" href="#">Меню 1</a></li>
-    <li><a class="scroll" href="#">Меню 2</a></li>
-    <li><a class="scroll" href="#">Меню 3</a></li>
-    <li><a class="scroll" href="#">Меню 4</a></li>
-    <li><a class="scroll" href="#">Меню 5</a></li>
-    <li><a class="scroll" href="#">Меню 6</a></li>
-    <li><a class="scroll" href="#">Меню 7</a></li>
-    <li><a class="scroll" href="#">Меню 8</a></li>
-    <li><a class="scroll" href="#">Меню 9</a></li>
+    <li><a class="scroll" href="#strategies">Инвестиционные стратегии</a></li>
+    <li><a class="scroll" href="#about">«Умные сделки»</a></li>
+    <li><a class="scroll" href="#benefits">Ваши выгоды</a></li>
+    <li><a class="scroll" href="#repairs">Ремонт под ключ</a></li>
+    <li><a class="scroll" href="#section_5">Обслуживание аренды</a></li>
+    <li><a class="scroll" href="#cases">Кейсы по инвестициям</a></li>
+    <li><a class="scroll" href="#strategy">Личная встреча</a></li>
+    
   </ul>
   <div class="close"><img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="svg/gamburger_close.svg" alt=""></div>
 </div>
@@ -70,7 +69,7 @@
           <div class="header-item">
             <h1>Покупайте и продавайте недвижимость <br><span>с доходом до 60%</span></h1>
             <p>Получите консультацию эксперта прямо сейчас</p>
-            <a data-popup href="#reg" data-btn="ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ" data-title="Получите <br>  <span>консультацию</span>" data-p="и отличные предложения <br><b>по 15 лучшим новостройкам Киева</b>" class="order-btn"><span>ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</span></a>
+            <a data-popup href="#reg" data-btn="ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ" data-title="Получить <br>  <span>консультацию</span>" data-p="и отличные предложения <br><b>по 15 лучшим новостройкам Киева</b>" class="order-btn"><span>ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</span></a>
           </div>
         </div>
         <div class="col-xl-6 xs-first">
@@ -150,7 +149,7 @@
               <div class="title">Получите чек-лист «Секреты выгодной покупки квартир» <span>прямо сейчас</span></div>
               <p>и консультацию эксперта по вашей ситуации</p>
               <input type="tel" name="phone" placeholder="Ваш телефон" required>
-              <button type="submit" class="order-btn"><span>ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</span></button>
+              <button type="submit" class="order-btn"><span>Получить сейчас</span></button>
             </form>
           </div>
         </div>
@@ -179,11 +178,20 @@
         </div>
       </div>
     </div>
-    <div class="strategies">
+    <div class="strategies" id="strategies">
       <div class="container">
         <div class="h2-title">Инвестиционные <br><span>стратегии</span> </div>
         <div class="strategies-img"><img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="images/4ergdf.png" alt=""></div>
-        <div class="strategies-carousel owl-carousel owl-theme no-js">
+        <div class="repairs-mob">
+         <div class="title"><b>примеры стратегий сделок </b> для наших клиентов</div>
+          <ul class="strategies-list">
+            <li data-id="0">ИНДИВИДУАЛЬНАЯ</li>
+            <li data-id="1">ПОД АРЕНДУ</li>
+            <li data-id="2">БИЗНЕС</li>
+            <li data-id="3">ЭКСКЛЮЗИВ</li>
+          </ul>
+        </div>
+        <div id="strategies-carousel" class="strategies-carousel owl-carousel owl-theme no-js">
           <div class="strategies-item">
             <img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="images/ijsmk.png" alt="">
             <div class="content">
@@ -196,7 +204,7 @@
                 <li>Подбираем объект, чтобы <br>дальше выгодно инвестировать полученную прибыль. </li>
 
               </ul>
-              <a data-popup href="#reg" data-btn="ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ" data-title="Получите <br>  <span>консультацию</span>" data-p="и отличные предложения <br><b>по 15 лучшим новостройкам Киева</b>" class="order-btn"><span>ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</span></a>
+              <a data-popup href="#reg" data-btn="ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ" data-title='Получите консультацию по инвестиционной стратегии <br><span>"Индивидуальная"</span>' data-p="" class="order-btn"><span>ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</span></a>
             </div>
           </div>
           <div class="strategies-item">
@@ -210,7 +218,7 @@
                 <li>Находим адекватных арендаторов и предоставляем обслуживание под ключ. </li>
                 <li>Подсказываем, как дальше выгодно инвестировать полученную прибыль. </li>
               </ul>
-              <a data-popup href="#reg" data-btn="ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ" data-title="Получите <br>  <span>консультацию</span>" data-p="и отличные предложения <br><b>по 15 лучшим новостройкам Киева</b>" class="order-btn"><span>ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</span></a>
+              <a data-popup href="#reg" data-btn="ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ" data-title='Получите консультацию по инвестиционной стратегии <br><span>"Под аренду"</span>' data-p="" class="order-btn"><span>ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</span></a>
             </div>
           </div>
           <div class="strategies-item">
@@ -225,7 +233,7 @@
                 <li>Оказываем весь комплекс услуг по обслуживанию арендаторов, если необходимо. </li>
                 <li>Подсказываем, как дальше выгодно инвестировать полученную прибыль. </li>
               </ul>
-              <a data-popup href="#reg" data-btn="ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ" data-title="Получите <br>  <span>консультацию</span>" data-p="и отличные предложения <br><b>по 15 лучшим новостройкам Киева</b>" class="order-btn"><span>ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</span></a>
+              <a data-popup href="#reg" data-btn="ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ" data-title='Получите консультацию по инвестиционной стратегии <br><span>"Бизнес"</span>' data-p="" class="order-btn"><span>ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</span></a>
             </div>
           </div>
           <div class="strategies-item">
@@ -239,14 +247,14 @@
                 <li>Просчитываем оптимальную стратегию монетизации объекта. </li>
                 <li>Сопровождаем на каждом этапе до получения прибыли и дальше. </li>
               </ul>
-              <a data-popup href="#reg" data-btn="ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ" data-title="Получите <br>  <span>консультацию</span>" data-p="и отличные предложения <br><b>по 15 лучшим новостройкам Киева</b>" class="order-btn"><span>ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</span></a>
+              <a data-popup href="#reg" data-btn="ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ" data-title='Получите консультацию по инвестиционной стратегии <br><span>"Эксклюзив"</span>' data-p="" class="order-btn"><span>ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</span></a>
             </div>
           </div>
 
         </div>
       </div>
     </div>
-    <div class="about">
+    <div class="about" id="about">
       <div class="container">
         <div class="h2-title">Что такое «умные сделки»<br> WinRealty?!</div>
         <div class="about-container">
@@ -278,7 +286,7 @@
             </div>
             <p class="h"><b>Под каждый объект мы готовим инвестиционную стратегию</b>. Мы знаем, что именно и как выгоднее всего будет сделать именно с этим объектом, чтобы он приносил максимум пользы именно вам, и доход был выше среднего.</p>
             <div class="line-icon">
-              <div class="emoji"><img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="images/3ed.png" alt=""></div>
+              <div class="emoji">🛠</div>
             </div>
             <p><b>Мы сопровождаем вас на всех этапах ремонта <br>и эксплуатации</b>, знаем лучшие цены, типы ремонтов, даем наши скидки на материалы и проверенных специалистов, выполняем максимум задач вплоть до сдачи объекта в аренду и получения прибыли для вас.</p>
           </div>
@@ -320,7 +328,7 @@
         </div>
       </div>
     </div>
-    <div class="benefits">
+    <div class="benefits" id="benefits">
       <div class="container">
         <div class="h2-title"><span>Ваши выгоды</span> <br>от сотрудничества с нами</div>
         <div class="row">
@@ -354,7 +362,7 @@
             <form action="#" class="form" method="post">
               <div class="title">Получите индивидуальный расчет и подбор объекта</div>
               <input type="tel" name="phone" placeholder="Ваш телефон" required>
-              <button type="submit" class="order-btn"><span>ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</span></button>
+              <button type="submit" class="order-btn"><span>ПОЛУЧИТЬ сейчас</span></button>
             </form>
           </div>
           <div class="col-xl-6 xs-first">
@@ -388,10 +396,11 @@
         </div>
       </div>
     </div>
-    <div class="repairs">
+    <div class="repairs" id="repairs">
       <div class="container">
         <div class="h2-title">Ремонт под ключ</div>
         <div class="h2-subtitle">Выкладываемся на 101%, чтобы вы получили лучший результат</div>
+        
         <div class="strategies-carousel repairs-carousel owl-carousel owl-theme no-js">
           <div class="strategies-item">
             <img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="images/ijsmk.png" alt="">
@@ -459,7 +468,7 @@
         </div>
       </div>
     </div>
-    <div class="section_5">
+    <div class="section_5" id="section_5">
       <div class="container">
         <div class="h2-title">Комплексное обслуживание аренды <br>(вишенка на торте)</div>
         <div class="section_5-img">
@@ -486,7 +495,7 @@
         </div>
       </div>
     </div>
-    <div class="cases">
+    <div class="cases" id="cases">
       <div class="container">
         <div class="h2-title"><span>Кейсы по инвестициям</span> <br>с Win-Win Realty Invest</div>
         <div class="cases-carousel strategies-carousel repairs-carousel owl-carousel owl-theme no-js">
@@ -495,11 +504,11 @@
             <div class="content cases-item">
               <div class="title">Однокомнатная квартира</div>
               <ul class="cases-list">
-                <li><img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="images/money.png" alt=""> Вложили: $48 000</li>
-                <li><img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="images/power-connection-indicator.png" alt=""> Срок реализации: 7 месяцев </li>
-                <li><img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="images/thumb-up-button.png" alt=""> Продали за: $75 000 </li>
-                <li><img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="images/wallet.png" alt=""> <span>Доход: $27 000</span> </li>
-                <li><img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="images/synchronization-arrows.png" alt=""> Возврат инвестиций: <br>ROI 56% или 96% годовых</li>
+                <li><img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="svg/money.svg" alt=""> Вложили: $48 000</li>
+                <li><img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="svg/power-connection-indicator.svg" alt=""> Срок реализации: 7 месяцев </li>
+                <li><img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="svg/thumb-up-button.svg" alt=""> Продали за: $75 000 </li>
+                <li><img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="svg/wallet.svg" alt=""> <span>Доход: $27 000</span> </li>
+                <li><img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="svg/synchronization-arrows.svg" alt=""> Возврат инвестиций: <br>ROI 56% или 96% годовых</li>
               </ul>
             </div>
           </div>
@@ -508,10 +517,10 @@
             <div class="content cases-item">
               <div class="title">Проект под посуточную аренду</div>
               <ul class="cases-list">
-                <li><img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="images/money.png" alt=""> Вложено: $125 000</li>
-                <li><img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="images/power-connection-indicator.png" alt=""> Срок: 5 месяцев</li>
-                <li><img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="images/wallet.png" alt=""> <span>Доход: $28 000/год</span> </li>
-                <li><img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="images/synchronization-arrows.png" alt="">Возврат инвестиций: <br>ROI 22% годовых, 100% окупаемость за 4,5 года</li>
+                <li><img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="svg/money.svg" alt=""> Вложено: $125 000</li>
+                <li><img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="svg/power-connection-indicator.svg" alt=""> Срок: 5 месяцев</li>
+                <li><img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="svg/wallet.svg" alt=""> <span>Доход: $28 000/год</span> </li>
+                <li><img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="svg/synchronization-arrows.svg" alt="">Возврат инвестиций: <br>ROI 22% годовых, 100% окупаемость за 4,5 года</li>
 
               </ul>
             </div>
@@ -521,8 +530,8 @@
             <div class="content cases-item">
               <div class="title">Коммерческий объект с арендатором</div>
               <ul class="cases-list">
-                <li><img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="images/money.png" alt=""> Вложено: $450 000</li>
-                <li><img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="images/wallet.png" alt=""><span>Доходность: 18% годовых, возможность выхода через год или более</span></li>
+                <li><img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="svg/money.svg" alt=""> Вложено: $450 000</li>
+                <li><img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="svg/wallet.svg" alt=""><span>Доходность: 18% годовых, возможность выхода через год или более</span></li>
               </ul>
             </div>
           </div>
@@ -531,11 +540,11 @@
             <div class="content cases-item">
               <div class="title">Продажа старой и покупка новой квартиры для инвестирования</div>
               <ul class="cases-list">
-                <li><img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="images/money.png" alt=""> Вложили: неликвидная квартира, стоимостью $56 000, рыночная оценка $50 000 </li>
-                <li><img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="images/power-connection-indicator.png" alt=""> Срок: 10 месяцев </li>
-                <li><img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="images/thumb-up-button.png" alt=""> Продали за: $80 000</li>
-                <li><img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="images/wallet.png" alt=""> <span> Доход: $26 000 </span></li>
-                <li><img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="images/synchronization-arrows.png" alt=""> Возврат инвестиций: <br>Доходность 60%. ROI-72% годовых</li>
+                <li><img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="svg/money.svg" alt=""> Вложили: неликвидная квартира, стоимостью $56 000, рыночная оценка $50 000 </li>
+                <li><img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="svg/power-connection-indicator.svg" alt=""> Срок: 10 месяцев </li>
+                <li><img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="svg/thumb-up-button.svg" alt=""> Продали за: $80 000</li>
+                <li><img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="svg/wallet.svg" alt=""> <span> Доход: $26 000 </span></li>
+                <li><img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="svg/synchronization-arrows.svg" alt=""> Возврат инвестиций: <br>Доходность 60%. ROI-72% годовых</li>
               </ul>
             </div>
           </div>
@@ -544,10 +553,10 @@
             <div class="content cases-item">
               <div class="title">Квартира под длительную аренду</div>
               <ul class="cases-list">
-                <li><img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="images/money.png" alt=""> Вложили: $58 000</li>
-                <li><img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="images/power-connection-indicator.png" alt=""> Срок реализации: 6 месяцев</li>
-                <li><img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="images/wallet.png" alt=""> <span>Доход: 21%/год.</span></li>
-                <li><img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="images/synchronization-arrows.png" alt=""> Возврат инвестиций: окупаемость на 100% - 4.8 лет</li>
+                <li><img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="svg/money.svg" alt=""> Вложили: $58 000</li>
+                <li><img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="svg/power-connection-indicator.svg" alt=""> Срок реализации: 6 месяцев</li>
+                <li><img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="svg/wallet.svg" alt=""> <span>Доход: 21%/год.</span></li>
+                <li><img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="svg/synchronization-arrows.svg" alt=""> Возврат инвестиций: окупаемость на 100% - 4.8 лет</li>
               </ul>
             </div>
           </div>
@@ -556,11 +565,11 @@
             <div class="content cases-item">
               <div class="title">Совместный смарт-проект</div>
               <ul class="cases-list">
-                <li><img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="images/money.png" alt=""> Вложили: $30 000</li>
-                <li><img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="images/power-connection-indicator.png" alt=""> Срок реализации: 4 месяца</li>
-                <li><img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="images/thumb-up-button.png" alt=""> Продали за: $45 000</li>
-                <li><img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="images/wallet.png" alt=""> <span>Доход: $15 000</span></li>
-                <li><img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="images/synchronization-arrows.png" alt=""> Возврат инвестиций: <br>ROI 50% или 150% годовых</li>
+                <li><img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="svg/money.svg" alt=""> Вложили: $30 000</li>
+                <li><img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="svg/power-connection-indicator.svg" alt=""> Срок реализации: 4 месяца</li>
+                <li><img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="svg/thumb-up-button.svg" alt=""> Продали за: $45 000</li>
+                <li><img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="svg/wallet.svg" alt=""> <span>Доход: $15 000</span></li>
+                <li><img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="svg/synchronization-arrows.svg" alt=""> Возврат инвестиций: <br>ROI 50% или 150% годовых</li>
               </ul>
             </div>
           </div>
@@ -655,7 +664,7 @@
         </div>
       </div>
     </div>
-    <div class="results strategy">
+    <div class="results strategy" id="strategy">
       <div class="container">
         <div class="h2-title"><span>Разработаем стратегию</span> <br>на личной встрече </div>
         <div class="row  align-items-end">
@@ -676,7 +685,7 @@
             </div>
           </div>
           <div class="col-12 text-center">
-            <a data-popup href="#reg" data-btn="ЗАПИСАТЬСЯ НА ВСТРЕЧУ" data-title="Записаться на встречу с экспертом" data-p="" class="order-btn"><span>ЗАПИСАТЬСЯ НА ВСТРЕЧУ</span></a>
+            <a data-popup href="#reg" data-btn="ЗАПИСАТЬСЯ НА ВСТРЕЧУ" data-title="Запишитесь на встречу с экспертом" data-p="" class="order-btn"><span>ЗАПИСАТЬСЯ НА ВСТРЕЧУ</span></a>
           </div>
         </div>
       </div>
@@ -688,13 +697,13 @@
           <div class="col-xl-6">
             <div class="contacts-item">
               <div class="icon"><img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="svg/pin.svg" alt=""></div>
-              <p>г.Киев, ул. Е. Коновальца (Щорса), <br>36д (БЦ "Волна")</p>
+              <p>г. Киев, ул. Е. Коновальца (Щорса), <br>36д (БЦ "Волна")</p>
             </div>
           </div>
           <div class="col-xl-6">
             <div class="contacts-item">
               <div class="icon"><img class="lozad" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="svg/clock.svg" alt=""></div>
-              <p>Пн-Пт: 09:00 - 19:00, Сб-Вс: <br>10:00 - 19:00</p>
+              <p>Пн-Пт: 09:00 - 19:00, <br>Сб-Вс: 10:00 - 19:00</p>
             </div>
           </div>
         </div>

@@ -12,10 +12,83 @@
     .h2-subtitle {
       max-width: 394px;
     }
+
     .section_5 .h2-title {
       br {
         display: none;
       }
     }
+
+    .strategies-item {
+      margin: 0 auto 45px;
+    }
+
+    .xs-br {
+      display: none;
+    }
+
+    .md-br {
+      display: block;
+    }
+
+    .strategies-carousel .owl-nav button {
+      position: absolute;
+      top: 81px;
+      transform: translateY(0%);
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      transition: .3s;
+    }
+
+    .strategies-carousel {
+      position: relative;
+      margin-bottom: 45px;
+      max-width: 425px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .section_4 .h2-title {
+      max-width: 380px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .form {
+      max-width: 361px;
+      border-radius: 0 0 5px 5px;
+      background-color: #f8c443;
+      padding: 0 48px 50px;
+      margin-top: 87px;
+      position: relative;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+
+      &:before {
+        content: "";
+        border: 220px solid transparent;
+        border-bottom: 87px solid #f8c443;
+        width: 438px;
+        height: 87px;
+        position: absolute;
+        top: -307px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+
+      &:after {
+        content: "";
+        width: 28px;
+        height: 40px;
+        background-color: #f8c443;
+        position: absolute;
+        top: -78px;
+        left: 66px;
+      }
+
+    }
+
   }
 }

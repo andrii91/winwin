@@ -189,7 +189,7 @@
 
   .h2-subtitle {
     margin-bottom: 40px;
-        max-width: 297px;
+    max-width: 297px;
   }
 
   .strategies {
@@ -207,13 +207,16 @@
   .strategies-item .content ul {
     //    min-height: inherit;
   }
+
   .strategies-item {
-    margin: 0 auto;
+    margin: 0 25px 45px;
   }
+
   .benefits-carousel {
     margin-left: auto;
     margin-right: auto;
   }
+
   .about {
     padding: 60px 0;
   }
@@ -222,6 +225,14 @@
     p {
       font-size: 14px;
     }
+  }
+
+  .owl-dots {
+    position: absolute;
+    left: 50%;
+    bottom: 3px;
+    transform: translateX(-50%);
+    width: 100%;
   }
 
   .about-item .top .title,
@@ -272,10 +283,11 @@
   }
 
   .benefits-item {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+
     .img {
-    min-height: inherit;
-  }
+      min-height: inherit;
+    }
   }
 
   .order-btn span {
@@ -285,11 +297,13 @@
 
   .benefits-carousel .strategies-item {
     padding: 40px 15px;
+    margin-top: 50px;
+        box-shadow: 0 0px 31px rgba(0,0,0,.07);
 
   }
 
   .benefits-carousel {
-        margin-top: 50px;
+    margin-top: 0px;
   }
 
   .repairs {
@@ -300,7 +314,7 @@
     }
 
     .strategies-carousel {
-//      margin-bottom: 0;
+      //      margin-bottom: 0;
     }
 
     .h2-subtitle {
@@ -356,10 +370,10 @@
     }
 
     .strategies-carousel {
-      margin-bottom: 0;
+//      margin-bottom: 0;
 
       .strategies-item {
-        margin-bottom: 15px;
+//        margin-bottom: 15px;
       }
     }
   }
@@ -493,25 +507,55 @@
     margin-left: auto;
     margin-right: auto;
   }
-  
+
   .strategies-carousel .owl-nav button {
     position: absolute;
-    top: 155px;
+    top: 64px;
     transform: translateY(0%);
     width: 50px;
     height: 50px;
     border-radius: 50%;
     transition: .3s;
-}
+  }
+
   .strategies-carousel .owl-nav button:hover {
-    transform:  scale(.9);
-}
+    transform: scale(.9);
+  }
+
   .repairs-mob {
     display: block;
   }
-.section_5 .form .title {
+
+  .section_5 .form .title {
     margin-left: -10px;
     margin-right: -10px;
     margin-bottom: 24px;
+  }
+
+  .nav {
+    padding-bottom: 5px;
+  }
+
+  .offer {
+    margin-bottom: 5px;
+  }
+
+  .xs-br {
+    display: block;
+  }
+
+  .about .h2-title {
+    max-width: 215px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .benefits-carousel .owl-nav button {
+    position: absolute;
+    top: 42%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: .3s;
 }
 }

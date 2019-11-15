@@ -131,6 +131,21 @@ $(document).ready(function () {
     $('.about-item p').height($('.about-item:nth-child(2) p.h').height());
 
     $('.results-img.repl img').attr('data-src', 'images/mobimg.png');
+      $('.close').click(function () {
+    $(this).parents('.offer').hide();
+    $(this).parents('.nav').css({
+      'padding-top': '5px'
+    });
+
+  })
+  }else {
+      $('.close').click(function () {
+    $(this).parents('.offer').hide();
+    $(this).parents('.nav').css({
+      'padding-top': '17px'
+    });
+
+  })
   }
 
   var id = 0;

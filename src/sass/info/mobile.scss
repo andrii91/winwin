@@ -29,6 +29,7 @@
 
   .logo {
     font-size: 14px;
+    position: relative;z-index: 9999;
   }
 
   .header-item h1 {
@@ -298,7 +299,7 @@
   .benefits-carousel .strategies-item {
     padding: 40px 15px;
     margin-top: 50px;
-        box-shadow: 0 0px 31px rgba(0,0,0,.07);
+        box-shadow: 0 0px 39px rgba(0,0,0,.08);
 
   }
 
@@ -454,7 +455,7 @@
   }
 
   .contacts {
-    padding: 60px 0;
+    padding: 60px 0 90px;
   }
 
   .contacts iframe {
